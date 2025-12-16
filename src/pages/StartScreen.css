@@ -1,11 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(135deg, #282c34, #3a3f47);
-  color: #fff;
+  background: linear-gradient(90deg, #e073c6, #f3f3f3);
+  color: white;
   font-family: Arial, sans-serif;
   padding: 1rem;
   box-sizing: border-box;
@@ -15,12 +24,15 @@
   font-size: 3.5rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
 }
 
 .subtitle {
-  font-size: 1.75rem;
-  margin-bottom: 2.5rem;
-  color: #dcdcdc;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #333;
 }
 
 .buttonContainer {
@@ -31,14 +43,18 @@
 .button {
   padding: 0.75rem 2rem;
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
-  background-color: #007bff;
+  background-color: orange;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
 }
 
 .button:hover {
@@ -48,6 +64,6 @@
 }
 
 .button:active {
-  transform: translateY(0);
+  transform: translateY(4px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }

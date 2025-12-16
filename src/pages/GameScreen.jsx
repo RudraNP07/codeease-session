@@ -12,7 +12,7 @@ const GameScreen = () => {
         marginTop: "2rem",
         padding: "1rem",
         fontFamily: "Arial, sans-serif",
-        background: "linear-gradient(135deg, #282c34, #3a3f47)",
+        background: "linear-gradient(180deg, #ff0000ff, #fdfdfdff)",
         color: "#fff",
         minHeight: "100vh",
         display: "flex",
@@ -29,9 +29,9 @@ const GameScreen = () => {
       >
         Game Page
       </h1>
-      <p style={{ fontSize: "1.5rem", color: "#dcdcdc" }}>
+      <p style={{ fontSize: "1.5rem", color: "black", marginTop: "10px", fontWeight: "200px" }}>
         Selected Difficulty:{" "}
-        <span style={{ color: "#fff", fontWeight: "bold" }}>{difficulty}</span>
+        <span style={{ color: "white", fontWeight: "bold", padding: "0.5px" }}>{difficulty}</span>
       </p>
     </div>
   );
